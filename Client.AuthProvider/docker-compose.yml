@@ -1,0 +1,6 @@
+services:
+  client.authprovider.api:
+    image: ${DOCKER_REGISTRY-}clientauthproviderapi
+    build:
+      context: .
+      dockerfile: Client.AuthProvider.Api/Dockerfile
