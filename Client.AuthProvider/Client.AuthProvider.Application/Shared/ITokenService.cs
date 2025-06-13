@@ -1,6 +1,6 @@
 ﻿using Client.AuthProvider.Domain.Users;
 
-namespace Client.AuthProvider.Application.Token;
+namespace Client.AuthProvider.Application.Shared;
 
 public interface ITokenService
 {
